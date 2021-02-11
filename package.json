@@ -49,5 +49,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "formik": "^2.2.6",
+    "react-bootstrap": "^1.4.3"
+  }
 }

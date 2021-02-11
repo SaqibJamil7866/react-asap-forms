@@ -1,6 +1,4 @@
-import React from 'react'
-import styles from './styles.module.css'
+/* eslint-disable prettier/prettier */
+import { LoginForm } from './login_form';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { LoginForm }

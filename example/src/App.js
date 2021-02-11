@@ -1,10 +1,24 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-asap-forms'
-import 'react-asap-forms/dist/index.css'
+import { LoginForm } from 'react-asap-forms'
+import 'react-asap-forms/dist/index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const formSubmit = () =>{
+    alert('Submitted');
+  }
+  var data = {
+    // heading: "Register",
+    loginFormSubmit: formSubmit
+  }
+
+
+  return (
+    <div className="App">
+      <LoginForm {...data}/>
+    </div>
+  );
 }
 
 export default App
