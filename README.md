@@ -12,15 +12,26 @@ npm install --save react-asap-forms
 
 ## Usage
 
+```css
+>You have to import this file at the top of app.js
+
+import "react-asap-forms/dist/index.css";
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-asap-forms'
+import { LoginForm } from 'react-asap-forms'
 import 'react-asap-forms/dist/index.css'
 
 class Example extends Component {
+   var data = {
+    heading: "Register",    *optional bydefault it value 'Login'
+    loginFormSubmit: formSubmit,
+    validationSchema, *validation schema object to validate form
+    initialValues *initial values to populate form fields
+  }
+
   render() {
-    return <MyComponent />
+    return <LoginForm {...data} />
   }
 }
 ```

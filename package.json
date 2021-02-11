@@ -1,6 +1,6 @@
 {
   "name": "react-asap-forms",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Reuseable Login, Signup Forms",
   "author": "SaqibJamil7866",
   "license": "MIT",
@@ -53,6 +53,7 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "formik": "^2.2.6",
-    "react-bootstrap": "^1.4.3"
+    "react-bootstrap": "^1.4.3",
+    "yup": "^0.32.8"
   }
 }
